@@ -19,7 +19,7 @@ def test_initial_signals_part_a():
 
 
 # initial lights test.
-# when the main road signal is green the pedestrian signal must be green
+# when the main road signal is green the main road pedestrian signal must be green
 # testing for condition b)
 def test_initial_signals_part_b():
     intersection = Intersection()
@@ -38,6 +38,7 @@ def test_change_signals_part_a():
 
 
 # testing lights again AFTER lights change
+# when the side road signal is green the side road pedestrian signal must be green
 # testing for condition b)
 def test_change_signals_part_b():
     intersection = Intersection()
