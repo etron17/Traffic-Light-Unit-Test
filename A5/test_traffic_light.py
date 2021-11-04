@@ -28,12 +28,13 @@ def test_initial_signals_part_b():
 
 
 # testing lights again AFTER lights change
+# when the main road signal is red the side road must always be green.
 # testing for condition a)
 def test_change_signals_part_a():
     intersection = Intersection()
     intersection.changeSignals()
 
-    assert intersection.mainRoadCar != intersection.sideRoadCar and intersection.mainRoadPedestrian != intersection.sideRoadPedestrian, "Error! Test for condition a) failed!"
+    assert intersection.mainRoadCar != intersection.sideRoadCar, "Error! Test for condition a) failed!"
 
 
 # testing lights again AFTER lights change
