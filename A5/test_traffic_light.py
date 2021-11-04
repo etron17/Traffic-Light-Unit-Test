@@ -10,11 +10,12 @@ import time
 
 
 # initial lights test.
+# when the main road signal is green the side road must always be red.
 # testing for condition a)
 def test_initial_signals_part_a():
     intersection = Intersection()
 
-    assert intersection.mainRoadCar != intersection.sideRoadCar and intersection.mainRoadPedestrian != intersection.sideRoadPedestrian, "Error! Test for condition a) failed!"
+    assert intersection.mainRoadCar != intersection.sideRoadCar, "Error! Test for condition a) failed!"
 
 
 # initial lights test.
