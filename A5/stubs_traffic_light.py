@@ -1,10 +1,3 @@
-"""
-Name: Dojae Kim
-Student Number: 400420323
-Student email: kim408@mcmaster.ca
-File name: Assignment 5 stubs traffic light file.
-"""
-
 import time
 
 verticalRoad = "\t\t\t\t\t        |\n\t\t\t\t\t        |\n\t\t\t\t\t        |\n\t\t\t\t\t        |\n\t\t\t\t\t        |"
