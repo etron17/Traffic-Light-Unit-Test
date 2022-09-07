@@ -1,10 +1,3 @@
-"""
-Name: Dojae Kim
-Student Number: 400420323
-Student email: kim408@mcmaster.ca
-File name: Assignment 5 test traffic light file.
-"""
-
 from A5.stubs_traffic_light import Intersection
 import time
 
